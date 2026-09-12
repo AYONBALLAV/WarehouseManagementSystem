@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WarehouseManagement.Application/1.0.0": {
+        "dependencies": {
+          "WarehouseManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WarehouseManagement.Application.dll": {}
+        }
+      },
+      "WarehouseManagement.Domain/1.0.0": {
+        "runtime": {
+          "WarehouseManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WarehouseManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WarehouseManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
