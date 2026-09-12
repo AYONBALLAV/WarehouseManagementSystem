@@ -4,7 +4,7 @@ namespace WarehouseManagement.Application.Interfaces;
 
 public interface IProductRepository
 {
-    product AddProduct(Product product);
+    Product AddProduct(Product product);
     
     Product  UpdateProduct(Product product);
     
@@ -12,5 +12,5 @@ public interface IProductRepository
     
     Product GetProduct(Guid id);
     
-    List<Product> GetProducts();
+    List<Product> GetProducts(List<Guid>? ProductIds);
 }
